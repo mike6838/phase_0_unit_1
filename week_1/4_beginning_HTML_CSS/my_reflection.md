@@ -5,4 +5,10 @@
 * Did you have an "aha" moments or were any concepts solidified?
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
-<!-- Add your reflection here. Remove the comment markers -->
+The structure of HTML makes sense to me. I struggle with incorporating CSS into HTML.
+
+I like that HTML seems to be very straightforward, but there is a lot of repetition. 
+
+I haven't yet.
+
+I didn't find a resource for html.
