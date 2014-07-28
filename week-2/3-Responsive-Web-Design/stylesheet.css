@@ -1,0 +1,38 @@
+
+#sidebar {
+    width: 33.33%;
+    height:100%;
+    float:right;
+    background-color:gray;
+}
+
+#content {
+    width: 66.67%;
+    background-color:yellow;
+    float:left;
+    font-size:1em;
+}
+
+#footer {
+	background-color:orange;
+	clear:both;
+}
+
+body {
+    background-color: red;
+}
+
+.references {
+}
+
+.reflection {
+}
+
+.header {
+    background-color: pink;
+    width: 100%;
+    padding-bottom:10px;
+}
+
+.responsive-design {
+}

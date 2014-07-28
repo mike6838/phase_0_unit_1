@@ -1,1 +1,15 @@
-/* include your css here */
+        #header {
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 15px;
+        }
+        section {
+            border: 2px solid black;
+            margin: 10px 30px 10px 30px;
+            padding: 10px;
+            }
+        footer {
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 15px;
+        }
