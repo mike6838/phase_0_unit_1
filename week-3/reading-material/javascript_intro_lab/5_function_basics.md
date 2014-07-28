@@ -110,4 +110,3 @@ Click [next](6_built_in_methods.md) to go to the next section.
 ### References
 
 [MDN: JS Reference: Functions and function scope](https://developer.mozilla.org/en/JavaScript/Reference/Functions_and_function_scope)<br>
-[Codecademy: Review of Functions in JavaScript](http://www.codecademy.com/courses/functions_in_javascript)

@@ -84,4 +84,3 @@ Click [next](14_each_map_select_max.md) to go to the next section.
 
 [MDN: JS Reference: for Statement](https://developer.mozilla.org/en/JavaScript/Reference/Statements/for)<br>
 [MDN: JS Reference: for ... in Statement](https://developer.mozilla.org/en/JavaScript/Reference/Statements/for...in)<br>
-[Codecademy: Loops in JavaScript](http://www.codecademy.com/courses/loops)

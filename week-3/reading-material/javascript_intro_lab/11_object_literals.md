@@ -83,4 +83,3 @@ Click [next](12_looping_basics.md) to go to the next section.
 
 [MDN: JS Guide: Object Literals](https://developer.mozilla.org/en/JavaScript/Guide/Values,_Variables,_and_Literals#Object_literals)<br>
 [O'Reilly Answers: How to use Object Literals in JavaScript](http://answers.oreilly.com/topic/2138-how-to-use-object-literals-in-javascript/)<br>
-[Codecademy: Introduction to Objects I](http://www.codecademy.com/courses/spencer-sandbox)

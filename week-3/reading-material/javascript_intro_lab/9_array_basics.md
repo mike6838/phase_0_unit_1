@@ -104,5 +104,4 @@ Click [next](10_array_operations.md) to go to the next section.
 ### References
 
 [MDN: JS Reference: Array](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array/)<br>
-[Codecademy: More Fun With Arrays](http://www.codecademy.com/courses/working-with-indexed-associate-and-multi-dimensional-arrays)<br>
 [hunlock.com: Mastering JavaScript Arrays](http://www.hunlock.com/blogs/Mastering_Javascript_Arrays)

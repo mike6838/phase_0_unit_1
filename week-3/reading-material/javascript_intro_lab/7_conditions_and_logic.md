@@ -141,4 +141,3 @@ Click [next](8_if_statements.md) to go to the next section.
 
 [MDN: JS Reference: Comparison Operators](https://developer.mozilla.org/en/JavaScript/Reference/Operators/Comparison_Operators)<br>
 [Truth, Equality, and JavaScript](http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/)<br>
-[Codecademy: Conditionals in JavaScript](http://www.codecademy.com/courses/conditionals-in-javascript)

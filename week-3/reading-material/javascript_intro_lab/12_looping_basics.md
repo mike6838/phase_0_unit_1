@@ -89,4 +89,3 @@ Click [next](13_looping_through_arrays.md) to go to the next section.
 
 [MDN: JS Reference: for Statement](https://developer.mozilla.org/en/JavaScript/Reference/Statements/for)<br>
 [MDN: JS Reference: while Statement](https://developer.mozilla.org/en/JavaScript/Reference/Statements/while)<br>
-[Codecademy: Loops in JavaScript](http://www.codecademy.com/courses/loops)

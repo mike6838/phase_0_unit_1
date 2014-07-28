@@ -60,4 +60,3 @@ Click [next](4_functions_vs_methods.md) to go to the next section.
 ###Resources
 
 [MDN: JS Guide: Values, Variables, and Literals](https://developer.mozilla.org/en/JavaScript/Guide/Values%2C_Variables%2C_and_Literals)<br>
-[Codecademy: Getting Started With Programming: Variables](http://www.codecademy.com/courses/getting-started-v2/4)
