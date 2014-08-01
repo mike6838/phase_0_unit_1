@@ -1,4 +1,4 @@
-// I worked on this challenge: [by myself, with: ]
+// I worked on this challenge: [with Nelly]
 
 
 // There is a section below where you will write your code.
@@ -19,21 +19,40 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
+var adam = {};
 
+adam.name = "Adam"
 
+terah.spouse = adam
+terah.weight = 125
 
+delete terah.eyeColor
 
+adam.spouse = terah
+
+terah.children = {}
+
+terah.children.carson = {name: "Carson"}
+terah.children.carter = {name: "Carter"}
+terah.children.carter = {name: "Colton"}
+
+adam.children = terah.children
 
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+// I worked on this exercise with Nelly; we had a lot of trouble because we didn’t read 
+// the instructions carefully enough but we had a really great time and learned a lot. 
+// At first, we didn’t read (or maybe disregarded) the instruction that told us to not alter
+// the original code. As a result, we messed around the original function and created a ton
+// of issues. It forced us to learn more about variable scope and solve a lot of problems. 
+// When we thought we were done, Nelly realized that the original instructions told us we 
+// couldn’t change the original function. We decided to start over and delete all of our code. 
+// This ended up being a great thing and we soon figured out that the way we were supposed to 
+// work on the challenge was much easier than the way we thought we were supposed to work on the 
+// challenge. Nelly and I finished the challenge very quickly the second time around. I really 
+// enjoyed working on the challenge with Nelly and learned a lot about her. At no time did I feel that 
 
 
 // __________________________________________
