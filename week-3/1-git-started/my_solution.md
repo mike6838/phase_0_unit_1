@@ -36,32 +36,32 @@ Define the following commands and describe how they work/what they do.
 
 #### merge
 <!-- 
-'git merge' takes any other branch in your repository and merges/combines the differences with your current branch.
+git merge takes any other branch in your repository and merges/combines the differences with your current branch.
  --> 
 
 #### pull
 <!-- 
-'git pull' not only fetches a remote repository, but also automatically merges any changes with current branch.
+git pull not only fetches a remote repository, but also automatically merges any changes with current branch.
  --> 
 
 #### push
 <!-- 
-'git push' will "push" the current branch on a local repgository and merge those changes onto a remote repository. 
+git push will "push" the current branch on a local repgository and merge those changes onto a remote repository. 
  --> 
 
 #### reset
 <!-- 
-‘git reset <file name>’ allows you to unstage a file without deleting it from your repository. 
+git reset <file name> allows you to unstage a file without deleting it from your repository. 
  --> 
 
 #### rm
 <!-- 
-‘git rm <file name>’ essentially deletes said file from your directory and removing it from any future commits.
+git rm <file name> essentially deletes said file from your directory and removing it from any future commits.
  --> 
 
 #### status
 <!-- 
-‘git status’ will give you a list of files and whether or not they’ve been modified or staged on the current branch.
+git status will give you a list of files and whether or not they’ve been modified or staged on the current branch.
  --> 
 
 ## Release 4: Git Workflow
