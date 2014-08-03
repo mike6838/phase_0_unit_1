@@ -24,29 +24,141 @@
 
 // Here is my part of the challenge:
 
-// 
-// 
-// 
-// 
-// 
-// 
+// Here is my part of the challenge:
+
+// I am writing this pesudocode on the premise of being able
+// to calculate the grade for 1 student. The code can be easily
+// scaled to multiple students, but I have no idea how many
+// students are in the class.
+
+// ** Declare variables **
+//
+// grades = []
+// sum = 0
+// grade = 0
+// avg = 0
+//
+// Prompt "Total number of assignments?"
+// Get numOfGrades
+//
+// ** Put each score entered into grades array **
+//
+// FOR (i=0; i < numOfGrades; i++;)
+// Prompt "Type in score"
+// Get grade
+// push each grade into grades array
+// END FOR
+//
+// ** Get sum of all grades in grades array **
+//
+// FOR (j=0; j < grades.length; j++;)
+// sum += grades[j];
+// END FOR
+//
+// avg = (sum / grades.length)
+//
+// ** Find median of grades **
+
+// IF grades.length is odd, then median is middle number
+// IF grades.length is even, median is avg of 2 middle numbers
+//
+//function median(grades){
+// sort array into ascending order grades.sort
+// get the length of the list
+// if the length is odd, use modulus (%)
+// return the middle value
+// else
+// get the two middle values
+// calculate the average of the two values
+// return the average }
+//
+// call function and pass grades array into it as argument
+// display Median and Average to user
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// My role in the group is: Person 4 -  Translate Pseudocode into Code - Nelly Lam
+
+// My role in the group is: Person 3 -- Translate Pseudocode into Code - Nelly Lam
 
 // Here is my part of the challenge:
 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
+// I am writing this pesudocode on the premise of being able
+// to calculate the grade for 1 student. The code can be easily
+// scaled to multiple students, but I have no idea how many
+// students are in the class.
+
+// ** Declare variables **
+//
+// grades = []
+var grades = [];
+// sum = 0
+var sum = 0;
+// grade = 0
+var grade = 0;
+// avg = 0
+var avg = 0;
+//
+// Prompt "Total number of assignments?"
+var numOfGrades = parseInt(prompt("Total number of assignments?"),10);
+// Get numOfGrades
+
+//
+// ** Put each score entered into grades array **
+//
+// FOR (i=0; i < numOfGrades; i++;)
+// Prompt "Type in score"
+// Get grade
+// push each grade into grades array
+// END FOR
+for (var i = 0; i < numOfGrades; i++){
+var grade = parseInt(prompt("Type in score"), 10);
+grades.push(grade);
+}
+//
+// ** Get sum of all grades in grades array **
+//
+// FOR (j=0; j < grades.length; j++;)
+// sum += grades[j];
+// END FOR
+//
+// avg = (sum / grades.length)
+for (var j = 0; j < grades.length; j++){
+sum += grades[j];
+}
+avg = sum / grades.length;
+//
+// ** Find median of grades **
+
+// IF grades.length is odd, then median is middle number
+// IF grades.length is even, median is avg of 2 middle numbers
+//
+//function median(grades){
+// sort array into ascending order grades.sort
+// get the length of the list
+// if the length is odd, use modulus (%)
+// return the middle value
+// else
+// get the two middle values
+// calculate the average of the two values
+// return the average }
+//
+var median = function(grades){
+grades.sort(function(a, b){return a-b});
+if (grades.length % 2 !== 0){
+median = grades[Math.floor(grades.length/2)];
+}
+else {
+num1 = grades[grades.length/2 - 1];
+num2 = grades[grades.length/2];
+median = (num1 + num2)/2;
+}
+};
+
+median(grades);
+// call function and pass grades array into it as argument
+// display Median and Average to user
+console.log("Median: " + median.toString());
+console.log("Average: " + avg.toString());
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
