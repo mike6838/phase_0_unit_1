@@ -79,11 +79,7 @@ var coffeeShop = {
 
 
 // Reflection
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
+// I’ve been struggling to finish my solo challenge since I started it on Thursday. 
+// I am mostly confused about how to each of the variables through the computer screen, 
+// like in Code Combat. I feel confident in my knowledge in two of the learning competencies. 
+// I know how to create variables and object literals and manipulate data within them. 
